@@ -2,4 +2,4 @@
 
 https://waleedlugod.netlify.app
 
-Resume
+Portfolio
