@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.pages {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	right: 128px;
+	bottom: 96px;
+	align-items: flex-end;
+	font-size: 81px;
+}
+.title {
+	margin: 96px;
+	margin-left: 128px;
+	font-family: "Inter", sans-serif;
+}
+.title h2 {
+	font-size: 36px;
+}
+.title h1 {
+	font-size: 81px;
+}

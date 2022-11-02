@@ -1,1 +1,8 @@
 /* https://colorhunt.co/palette/b7c4cfeee3cbd7c0ae967e76 */
+::before,
+::after,
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
