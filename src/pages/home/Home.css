@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:ital@0;1&display=swap");
 
 .pages {
 	display: flex;
@@ -7,7 +7,16 @@
 	right: 128px;
 	bottom: 96px;
 	align-items: flex-end;
+	font-family: "Playfair Display", "Times New Roman", Times, serif;
 	font-size: 81px;
+}
+.pages a,
+.pages a:visited {
+	text-decoration: none;
+	color: black;
+}
+.pages a:hover {
+	font-style: italic;
 }
 .title {
 	margin: 96px;
@@ -15,7 +24,7 @@
 	font-family: "Inter", sans-serif;
 }
 .title h2 {
-	font-size: 36px;
+	font-size: 32px;
 }
 .title h1 {
 	font-size: 81px;
