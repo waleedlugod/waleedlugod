@@ -4,14 +4,15 @@ import {
 	createBrowserRouter,
 	Route,
 } from "react-router-dom";
-import { About, Error, Home, Work } from "../pages";
+import { About, Error, Home, Work, Contact } from "../pages";
 
 export const router = createBrowserRouter(
 	createRoutesFromElements(
 		<Route path="/" errorElement={<Error />}>
 			<Route index={true} element={<Home />} />
 			<Route path="about" element={<About />} />
-			<Route path="projects" element={<Work />} />
+			<Route path="work" element={<Work />} />
+			<Route path="contact" element={<Contact />} />
 		</Route>
 	)
 );

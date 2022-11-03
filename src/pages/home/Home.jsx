@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
 import { bgs } from "../../assets/homePageBgs";
@@ -6,12 +6,14 @@ import { bgs } from "../../assets/homePageBgs";
 export default function Home() {
 	const { defaultBg, aboutBg, workBg, contactBg } = bgs;
 	const [bg, setBg] = useState(defaultBg);
-	const ref = useRef(null);
-	useEffect(() => {
-		ref.current.style.background = `url("${bg}")`;
-	}, [bg]);
 	return (
-		<div id="home" ref={ref}>
+		<div
+			id="home"
+			style={{ backgroundImage: `url("${bg}")` }}
+			onMouseOut={() => {
+				setBg(defaultBg);
+			}}
+		>
 			<div className="title">
 				<h2>waleed</h2>
 				<h1>LUGOD</h1>
@@ -23,9 +25,6 @@ export default function Home() {
 					onMouseOver={() => {
 						setBg(aboutBg);
 					}}
-					onMouseLeave={() => {
-						setBg(defaultBg);
-					}}
 				>
 					about
 				</Link>
@@ -35,9 +34,6 @@ export default function Home() {
 					onMouseOver={() => {
 						setBg(workBg);
 					}}
-					onMouseLeave={() => {
-						setBg(defaultBg);
-					}}
 				>
 					work
 				</Link>
@@ -46,9 +42,6 @@ export default function Home() {
 					to="contact"
 					onMouseOver={() => {
 						setBg(contactBg);
-					}}
-					onMouseLeave={() => {
-						setBg(defaultBg);
 					}}
 				>
 					contact

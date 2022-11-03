@@ -4,7 +4,7 @@ import "./Work.css";
 export default function Projects() {
 	return (
 		<>
-			<h1>projects</h1>
+			<h1>work</h1>
 			<Link to="/">Home</Link>
 		</>
 	);
