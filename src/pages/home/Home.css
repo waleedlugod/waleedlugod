@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:ital@0;1&display=swap");
 
+#home {
+	width: 100vw;
+	height: 100vh;
+}
 .pages {
 	display: flex;
 	flex-direction: column;
@@ -19,13 +23,13 @@
 	font-style: italic;
 }
 .title {
-	margin: 96px;
-	margin-left: 128px;
+	padding: 96px;
+	padding-left: 128px;
 	font-family: "Inter", sans-serif;
 }
 .title h2 {
-	font-size: 32px;
+	font-size: 36px;
 }
 .title h1 {
-	font-size: 81px;
+	font-size: 121.5px;
 }
