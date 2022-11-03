@@ -19,6 +19,9 @@
 	text-decoration: none;
 	color: black;
 }
+.pages a:hover {
+	font-style: italic;
+}
 .title {
 	padding: 96px;
 	padding-left: 128px;

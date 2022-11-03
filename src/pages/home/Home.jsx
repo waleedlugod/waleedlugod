@@ -6,6 +6,7 @@ import { bgs } from "../../assets/homePageBgs";
 export default function Home() {
 	const { defaultBg, aboutBg, workBg, contactBg } = bgs;
 	const [bg, setBg] = useState(defaultBg);
+
 	return (
 		<div
 			id="home"
