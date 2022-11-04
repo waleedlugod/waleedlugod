@@ -21,7 +21,6 @@ export default function Home() {
 			</div>
 			<div className="pages">
 				<Link
-					className="about"
 					to="about"
 					onMouseOver={() => {
 						setBg(aboutBg);
@@ -30,7 +29,6 @@ export default function Home() {
 					about
 				</Link>
 				<Link
-					className="work"
 					to="work"
 					onMouseOver={() => {
 						setBg(workBg);
@@ -39,7 +37,6 @@ export default function Home() {
 					work
 				</Link>
 				<Link
-					className="contact"
 					to="contact"
 					onMouseOver={() => {
 						setBg(contactBg);
