@@ -3,3 +3,7 @@
 	flex-direction: column;
 	width: 400px;
 }
+.links {
+	display: flex;
+	flex-direction: column;
+}
