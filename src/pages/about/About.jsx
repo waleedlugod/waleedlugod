@@ -9,6 +9,8 @@ export default function About() {
 			</Link>
 			<main>
 				<h1>About</h1>
+				<div className="line"></div>
+				<p>stuff stuff and other stuff</p>
 			</main>
 		</article>
 	);

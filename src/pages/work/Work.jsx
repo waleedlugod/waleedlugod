@@ -7,7 +7,11 @@ export default function Work() {
 			<Link className="link-back" to="/">
 				Home
 			</Link>
-			<h1>work</h1>
+			<main>
+				<h1>Work</h1>
+				<div className="line"></div>
+				<p>empty 😢</p>
+			</main>
 		</article>
 	);
 }

@@ -1,0 +1,12 @@
+#work h1 {
+	font-size: 121.5px;
+}
+#work main {
+	padding: 96px;
+}
+#work .line {
+	width: 100%;
+	margin: 16px 0px 32px;
+	height: 2px;
+	background-color: black;
+}
