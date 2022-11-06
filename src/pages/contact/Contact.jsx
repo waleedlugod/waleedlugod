@@ -1,35 +1,34 @@
 import { Link } from "react-router-dom";
 import "./Contact.css";
-import svgGithub from "../../assets/github.svg";
-import svgTwitter from "../../assets/twitter.svg";
-import svgFacebook from "../../assets/facebook.svg";
-import svgInstagram from "../../assets/instagram.svg";
+import svgEmail from "../../assets/email.svg";
+import svgSocials from "../../assets/magnifying-glass.svg";
 
 export default function Contact() {
 	return (
-		<div id="contact">
-			<Link to="/">Home</Link>
-			<h1 className="title">Contact</h1>
-			<div className="line" />
-			<p>
-				Mail me: <a href="mailto:lugodwaleed@gmail.com">•lugodwaleed@gmail•</a>
-			</p>
-			<p>
-				Find me:{" "}
-				<a className="link" href="https://github.com/waleedlugod">
-					<img src={svgGithub} alt="" />
-				</a>
-				<a className="link" href="https://twitter.com/waleedlugod">
-					<img src={svgTwitter} alt="" />
-				</a>
-				<a className="link" href="https://www.facebook.com/wwwlugod">
-					<img src={svgFacebook} alt="" />
-				</a>
-				<a className="link" href="https://www.instagram.com/waleed.lugod/">
-					<img src={svgInstagram} alt="" />
-				</a>
-			</p>
-			<div className="links"></div>
-		</div>
+		<>
+			<Link className="link-back" to="/">
+				Home
+			</Link>
+			<div id="contact">
+				<h1 className="title">Contact</h1>
+				<div className="line" />
+				<div className="contact-links">
+					<p>
+						<img src={svgEmail} alt="" />
+						<a href="mailto:lugodwaleed@gmail.com">lugodwaleed@gmail</a>
+					</p>
+					<p>
+						<img src={svgSocials} alt="" />
+						<a href="https://github.com/waleedlugod">github</a>
+						{" / "}
+						<a href="https://twitter.com/waleedlugod">twitter</a>
+						{" / "}
+						<a href="https://www.facebook.com/wwwlugod">facebook</a>
+						{" / "}
+						<a href="https://www.instagram.com/waleed.lugod/">instagram</a>
+					</p>
+				</div>
+			</div>
+		</>
 	);
 }

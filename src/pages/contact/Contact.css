@@ -1,21 +1,35 @@
 #contact {
-	padding: 64px;
+	padding: 96px;
 }
-#contact a > img {
+#contact a {
+	color: black;
+	text-decoration: none;
+}
+#contact a:hover {
+	text-decoration: underline;
+}
+#contact p > img {
 	width: 36px;
+	margin-right: 16px;
+	font-style: italic;
+}
+#contact p {
+	font-size: 24px;
+	display: flex;
+	white-space: pre-wrap;
+	align-items: center;
+}
+#contact .contact-links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 #contact .line {
 	width: 100%;
+	margin: 24px 0px 24px 0px;
 	height: 1px;
 	background-color: black;
 }
-#contact .link {
-	text-decoration: none;
-}
-#contact .link:hover {
-	text-decoration: line-through;
-}
 #contact .title {
-	padding-bottom: 24px;
 	font-size: 81px;
 }
