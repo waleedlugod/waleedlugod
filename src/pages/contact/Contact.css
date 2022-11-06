@@ -5,13 +5,16 @@
 #contact a:hover {
 	text-decoration: underline;
 }
-#contact main {
-	padding: 128px;
+#contact h1 {
+	font-size: 81px;
 }
 #contact img {
 	width: 36px;
 	margin-right: 16px;
 	font-style: italic;
+}
+#contact main {
+	padding: 128px;
 }
 #contact section {
 	margin-bottom: 16px;
@@ -28,7 +31,4 @@
 	margin: 32px 0px 32px 0px;
 	height: 1px;
 	background-color: black;
-}
-#contact .title {
-	font-size: 81px;
 }

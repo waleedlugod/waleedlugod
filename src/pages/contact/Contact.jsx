@@ -10,7 +10,7 @@ export default function Contact() {
 				Home
 			</Link>
 			<main>
-				<h1 className="title">Contact</h1>
+				<h1>Contact</h1>
 				<div className="line" />
 				<div className="contact-links">
 					<section>
