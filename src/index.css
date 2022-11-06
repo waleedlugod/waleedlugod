@@ -1,8 +1,18 @@
-/* https://colorhunt.co/palette/b7c4cfeee3cbd7c0ae967e76 */
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:ital@0;1&display=swap");
+
 ::before,
 ::after,
 * {
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+}
+body {
+	font-family: "Inter", sans-serif;
+}
+p {
+	font-size: 24px;
+}
+.link-back {
+	position: absolute;
 }

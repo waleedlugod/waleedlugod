@@ -1,0 +1,12 @@
+#about h1 {
+	font-size: 121.5px;
+}
+#about main {
+	padding: 128px;
+}
+#about .line {
+	width: 100%;
+	margin: 16px 0px 32px;
+	height: 2px;
+	background-color: black;
+}
