@@ -28,7 +28,7 @@
 }
 #contact .line {
 	width: 100%;
-	margin: 32px 0px 32px 0px;
-	height: 1px;
+	margin: 16px 0px 32px;
+	height: 2px;
 	background-color: black;
 }
