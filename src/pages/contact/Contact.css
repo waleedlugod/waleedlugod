@@ -1,9 +1,21 @@
-.contact {
-	display: flex;
-	flex-direction: column;
-	width: 400px;
+#contact {
+	padding: 64px;
 }
-.links {
-	display: flex;
-	flex-direction: column;
+#contact a > img {
+	width: 36px;
+}
+#contact .line {
+	width: 100%;
+	height: 1px;
+	background-color: black;
+}
+#contact .link {
+	text-decoration: none;
+}
+#contact .link:hover {
+	text-decoration: line-through;
+}
+#contact .title {
+	padding-bottom: 24px;
+	font-size: 81px;
 }
