@@ -1,12 +1,12 @@
-#contact {
-	padding: 128px;
-}
 #contact a {
 	color: black;
 	text-decoration: none;
 }
 #contact a:hover {
 	text-decoration: underline;
+}
+#contact article {
+	padding: 128px;
 }
 #contact img {
 	width: 36px;
