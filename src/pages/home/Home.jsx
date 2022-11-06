@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import "./Home.css";
-import { bgs } from "../../assets/homePageBgs";
+import { bgs } from "../../assets/homeBgs";
 
 export default function Home() {
 	const { defaultBg, aboutBg, workBg, contactBg } = bgs;

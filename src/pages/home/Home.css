@@ -4,7 +4,7 @@
 	width: 100vw;
 	height: 100vh;
 }
-.pages {
+#home .pages {
 	display: flex;
 	flex-direction: column;
 	position: absolute;
@@ -14,23 +14,23 @@
 	font-family: "Playfair Display", "Times New Roman", Times, serif;
 	font-size: 81px;
 }
-.pages a,
-.pages a:visited {
+#home .pages a,
+#home .pages a:visited {
 	text-decoration: none;
 	color: black;
 }
-.pages a:hover {
+#home .pages a:hover {
 	font-style: italic;
 }
-.title {
+#home .title {
 	padding: 96px;
 	padding-left: 128px;
 	font-family: "Inter", sans-serif;
 }
-.title h1 {
+#home .title h1 {
 	font-size: 121.5px;
 	line-height: 1;
 }
-.title h2 {
+#home .title h2 {
 	font-size: 36px;
 }
