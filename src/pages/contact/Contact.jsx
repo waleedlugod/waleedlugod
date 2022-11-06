@@ -9,26 +9,32 @@ export default function Contact() {
 			<Link className="link-back" to="/">
 				Home
 			</Link>
-			<div id="contact">
+			<article id="contact">
 				<h1 className="title">Contact</h1>
 				<div className="line" />
-				<div className="contact-links">
-					<p>
+				<main className="contact-links">
+					<section>
 						<img src={svgEmail} alt="" />
-						<a href="mailto:lugodwaleed@gmail.com">lugodwaleed@gmail</a>
-					</p>
-					<p>
+						<p>
+							<a href="mailto:lugodwaleed@gmail.com">lugodwaleed@gmail</a>
+						</p>
+					</section>
+					<section>
 						<img src={svgSocials} alt="" />
-						<a href="https://github.com/waleedlugod">github</a>
-						{" / "}
-						<a href="https://twitter.com/waleedlugod">twitter</a>
-						{" / "}
-						<a href="https://www.facebook.com/wwwlugod">facebook</a>
-						{" / "}
-						<a href="https://www.instagram.com/waleed.lugod/">instagram</a>
-					</p>
-				</div>
-			</div>
+						<p>
+							<a href="https://github.com/waleedlugod">github</a>
+							{" / "}
+							<a href="https://www.linkedin.com/in/waleedlugod/">linkedin</a>
+							{" / "}
+							<a href="https://twitter.com/waleedlugod">twitter</a>
+							{" / "}
+							<a href="https://www.facebook.com/wwwlugod">facebook</a>
+							{" / "}
+							<a href="https://www.instagram.com/waleed.lugod/">instagram</a>
+						</p>
+					</section>
+				</main>
+			</article>
 		</>
 	);
 }

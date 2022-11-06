@@ -1,5 +1,5 @@
 #contact {
-	padding: 96px;
+	padding: 128px;
 }
 #contact a {
 	color: black;
@@ -8,15 +8,14 @@
 #contact a:hover {
 	text-decoration: underline;
 }
-#contact p > img {
+#contact img {
 	width: 36px;
 	margin-right: 16px;
 	font-style: italic;
 }
-#contact p {
-	font-size: 24px;
+#contact section {
+	margin-bottom: 16px;
 	display: flex;
-	white-space: pre-wrap;
 	align-items: center;
 }
 #contact .contact-links {
@@ -26,7 +25,7 @@
 }
 #contact .line {
 	width: 100%;
-	margin: 24px 0px 24px 0px;
+	margin: 32px 0px 32px 0px;
 	height: 1px;
 	background-color: black;
 }
