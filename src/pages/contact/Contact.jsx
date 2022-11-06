@@ -5,14 +5,14 @@ import svgSocials from "../../assets/magnifying-glass.svg";
 
 export default function Contact() {
 	return (
-		<div id="contact">
+		<article id="contact">
 			<Link className="link-back" to="/">
 				Home
 			</Link>
-			<article>
+			<main>
 				<h1 className="title">Contact</h1>
 				<div className="line" />
-				<main className="contact-links">
+				<div className="contact-links">
 					<section>
 						<img src={svgEmail} alt="" />
 						<p>
@@ -33,8 +33,8 @@ export default function Contact() {
 							<a href="https://www.instagram.com/waleed.lugod/">instagram</a>
 						</p>
 					</section>
-				</main>
-			</article>
-		</div>
+				</div>
+			</main>
+		</article>
 	);
 }
