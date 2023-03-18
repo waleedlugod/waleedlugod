@@ -5,10 +5,10 @@ export default function Article({ title, children }) {
   return (
     <>
       <Link href="/">Home</Link>
-      <main className={styles.content}>
+      <article className={styles.content}>
         <h1 className={styles.title}>{title}</h1>
         {children}
-      </main>
+      </article>
     </>
   );
 }
