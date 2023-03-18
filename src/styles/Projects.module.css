@@ -1,0 +1,26 @@
+.projectList {
+  list-style-type: none;
+}
+
+.projectList a {
+  display: block;
+  height: 100%;
+}
+
+.projectList a:hover {
+  text-decoration: underline;
+}
+
+.projectList h2,
+.projectList h3 {
+  display: inline;
+}
+
+.projectList h2 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+.projectList h3 {
+  font-weight: 600;
+}

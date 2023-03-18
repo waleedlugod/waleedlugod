@@ -12,11 +12,6 @@
   margin-left: auto;
 }
 
-.section a {
-  text-decoration: none;
-  color: black;
-}
-
 .section a:hover {
   text-decoration: underline;
 }

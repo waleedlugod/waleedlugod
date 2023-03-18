@@ -20,9 +20,15 @@ export default function Home() {
           <h1>lugod</h1>
         </header>
         <ul className={[`${styles.pages} ${playfairDisplay.className}`]}>
-          <Link href="/about">about</Link>
-          <Link href="/work">work</Link>
-          <Link href="/contact">contact</Link>
+          <li>
+            <Link href="/about">about</Link>
+          </li>
+          <li>
+            <Link href="/projects">projects</Link>
+          </li>
+          <li>
+            <Link href="/contact">contact</Link>
+          </li>
         </ul>
       </main>
     </>
