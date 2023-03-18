@@ -1,0 +1,14 @@
+.content {
+  padding: 8rem;
+}
+
+.homeLink {
+  position: absolute;
+}
+
+.line {
+  width: 100%;
+  margin: 1em 0em 2em;
+  height: 2px;
+  background-color: black;
+}
