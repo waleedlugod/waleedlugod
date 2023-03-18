@@ -16,7 +16,7 @@
 .projectList h2::after {
   content: "";
   width: 100%;
-  border-top: 1.5px solid black;
+  border-top: 0.03em solid black;
   position: absolute;
   top: calc(50% - 0.5px);
   left: 0px;
