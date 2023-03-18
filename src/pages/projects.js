@@ -8,7 +8,7 @@ export default function Projects() {
       <ul className={styles.projectList}>
         <li>
           <a href="https://interactive.theguidon.com/2023/02/from-the-hill-to-edsa">
-            <h2>From the Hill to EDSA </h2>
+            <h2>From the Hill to EDSA</h2>
             <h3>The GUIDON | 2023</h3>
           </a>
         </li>

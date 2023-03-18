@@ -2,25 +2,42 @@
   list-style-type: none;
 }
 
-.projectList a {
-  display: block;
-  height: 100%;
-}
-
-.projectList a:hover {
-  text-decoration: underline;
-}
-
 .projectList h2,
 .projectList h3 {
-  display: inline;
+  display: inline-block;
 }
 
 .projectList h2 {
   font-size: 3rem;
   font-weight: 100;
+  position: relative;
+}
+
+.projectList h2::after {
+  content: "";
+  width: 100%;
+  border: 1px solid black;
+  position: absolute;
+  top: calc(50% - 0.5px);
+  left: 0px;
+  transform: scaleX(0);
+  transition: transform ease-out 250ms;
+}
+
+.projectList a:hover h2::after {
+  transform: scaleX(1);
 }
 
 .projectList h3 {
+  display: inline-block;
   font-weight: 600;
+  margin-left: 1em;
+}
+
+.projectList h3:before {
+  content: url("/images/external-link.svg");
+  display: block;
+  width: 1rem;
+  height: 1rem;
+  margin-bottom: 0.2em;
 }
