@@ -1,22 +1,22 @@
 .name {
-  padding: 6rem 8rem;
+  padding: 6em 8em;
 }
 
 .name h1:nth-child(1) {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .name h1:nth-child(2) {
-  font-size: 7.5em;
+  font-size: 7.5rem;
   line-height: 1;
   text-transform: uppercase;
 }
 
 .pages {
   position: absolute;
-  inset: auto 8rem 6rem auto;
+  inset: auto 8em 6em auto;
   text-align: end;
-  font-size: 5em;
+  font-size: 5rem;
 }
 
 .pages a,

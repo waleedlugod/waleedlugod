@@ -1,5 +1,5 @@
 .content {
-  padding: 8rem;
+  padding: 8em;
 }
 
 .homeLink {
@@ -11,4 +11,9 @@
   margin: 1em 0em 2em;
   height: 2px;
   background-color: black;
+}
+
+.title {
+  font-size: 7.5rem;
+  line-height: 1;
 }

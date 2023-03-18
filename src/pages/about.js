@@ -8,7 +8,7 @@ export default function About() {
         Home
       </Link>
       <article className={styles.content}>
-        <h1>About</h1>
+        <h1 className={styles.title}>About</h1>
         <div className={styles.line}></div>
         <p>stuff stuff and other stuff</p>
       </article>
