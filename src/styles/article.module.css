@@ -4,7 +4,7 @@
 
 .homeLink {
   position: absolute;
-  inset: 3rem;
+  inset: 3rem auto auto 3rem;
   font-size: 2rem;
   color: #000;
 }
