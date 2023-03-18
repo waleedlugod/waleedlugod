@@ -4,6 +4,9 @@
 
 .homeLink {
   position: absolute;
+  inset: 3rem;
+  font-size: 2rem;
+  color: #000;
 }
 
 .title {
