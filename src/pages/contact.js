@@ -1,17 +1,19 @@
 import Article from "waleedLugod/components/article";
-import Image from "next/image";
 import styles from "waleedLugod/styles/Contact.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faMagnifyingGlass } from "@fortawesome/free-solid-svg-icons";
 
 export default function Contact() {
   return (
     <Article title="Contact">
       <main className={styles.content}>
         <section className={styles.section}>
-          <Image src="images/email.svg" width={36} height={36} alt="Email symbol" />
+          <FontAwesomeIcon className={styles.icon} icon={faEnvelope} />
           <a href="mailto:lugodwaleed@gmail.com">lugodwaleed@gmail.com</a>
         </section>
         <section className={styles.section}>
-          <Image src="images/magnifying-glass.svg" width={36} height={36} alt="Magnifying glass symbol" />
+          <FontAwesomeIcon className={styles.icon} icon={faMagnifyingGlass} />
           <a href="https://github.com/waleedlugod">github</a>
           &nbsp;/&nbsp;
           <a href="https://www.linkedin.com/in/waleedlugod/">linkedin</a>
