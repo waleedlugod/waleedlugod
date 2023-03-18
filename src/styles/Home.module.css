@@ -17,12 +17,12 @@
   inset: auto 8rem 6rem auto;
   text-align: end;
   font-size: 5rem;
+  list-style-type: none;
 }
 
 .pages a {
   display: block;
-  text-decoration: none;
-  color: black;
+  font-weight: 800;
 }
 
 .pages a:hover {
