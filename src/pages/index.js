@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
+import Screen from "waleedLugod/components/screen";
 import styles from "waleedLugod/styles/Home.module.css";
 import { Playfair_Display } from "next/font/google";
 
@@ -31,6 +32,7 @@ export default function Home() {
           </li>
         </ul>
       </main>
+      <Screen title="Home" />
     </>
   );
 }
