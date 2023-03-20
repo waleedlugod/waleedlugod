@@ -14,29 +14,29 @@ export default function Contact() {
         <main className="flex flex-wrap">
           <section className="inline-flex items-center text-2xl font-extralight">
             <FontAwesomeIcon className="mr-4" icon={faEnvelope} />
-            <a className="contact-link" href="mailto:lugodwaleed@gmail.com">
+            <a className="link" href="mailto:lugodwaleed@gmail.com">
               lugodwaleed@gmail.com
             </a>
           </section>
           <section className="ml-auto inline-flex items-center text-2xl font-extralight">
             <FontAwesomeIcon className="mr-4" icon={faMagnifyingGlass} />
-            <a className="contact-link" href="https://github.com/waleedlugod">
+            <a className="link" href="https://github.com/waleedlugod">
               github
             </a>
             &nbsp;/&nbsp;
-            <a className="contact-link" href="https://www.linkedin.com/in/waleedlugod/">
+            <a className="link" href="https://www.linkedin.com/in/waleedlugod/">
               linkedin
             </a>
             &nbsp;/&nbsp;
-            <a className="contact-link" href="https://twitter.com/waleedlugod">
+            <a className="link" href="https://twitter.com/waleedlugod">
               twitter
             </a>
             &nbsp;/&nbsp;
-            <a className="contact-link" href="https://www.facebook.com/wwwlugod">
+            <a className="link" href="https://www.facebook.com/wwwlugod">
               facebook
             </a>
             &nbsp;/&nbsp;
-            <a className="contact-link" href="https://www.instagram.com/waleed.lugod/">
+            <a className="link" href="https://www.instagram.com/waleed.lugod/">
               instagram
             </a>
           </section>

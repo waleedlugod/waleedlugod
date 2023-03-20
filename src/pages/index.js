@@ -21,17 +21,17 @@ export default function Home() {
           font-extrabold`}
         >
           <li>
-            <Link className="home-nav-link" href="/about">
+            <Link className="link after:top-[58%] after:border-t-[0.1em]" href="/about">
               about
             </Link>
           </li>
           <li>
-            <Link className="home-nav-link" href="/projects">
+            <Link className="link after:top-[58%] after:border-t-[0.1em]" href="/projects">
               projects
             </Link>
           </li>
           <li>
-            <Link className="home-nav-link" href="/contact">
+            <Link className="link after:top-[58%] after:border-t-[0.1em]" href="/contact">
               contact
             </Link>
           </li>

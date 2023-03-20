@@ -13,14 +13,9 @@
 }
 
 @layer components {
-  .home-nav-link {
-    @apply relative after:absolute after:top-[55%] after:right-0 after:w-full after:scale-x-0 after:rounded-full
-    after:border-[0.075em] after:border-solid after:border-black after:transition-transform after:duration-200 after:ease-out
+  .link {
+    @apply relative after:absolute after:top-1/2 after:right-0 after:w-full after:scale-x-0 after:rounded-full
+    after:border-t-[0.075em] after:border-solid after:border-black after:transition-transform after:duration-200 after:ease-out
     after:content-[''] hover:after:scale-x-100;
-  }
-  .contact-link {
-    @apply relative font-medium after:absolute after:top-1/2 after:left-0 after:w-full after:scale-x-0
-    after:rounded after:border-[0.075em] after:border-solid after:border-black after:transition-transform
-    after:duration-200 after:ease-out after:content-[''] hover:after:scale-x-100;
   }
 }
