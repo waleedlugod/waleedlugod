@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import Screen from "waleedLugod/components/screen";
-import styles from "waleedLugod/styles/Home.module.css";
 import { Playfair_Display } from "next/font/google";
 
 const playfairDisplay = Playfair_Display({ subsets: ["latin"] });
@@ -15,20 +14,29 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={styles.main}>
-        <header className={styles.name}>
-          <h1>waleed</h1>
-          <h1>lugod</h1>
+      <main>
+        <header className="p-24 font-thin">
+          <h1 className="text-4xl">waleed</h1>
+          <h1 className="text-9xl uppercase">lugod</h1>
         </header>
-        <ul className={[`${styles.pages} ${playfairDisplay.className}`]}>
+        <ul
+          className={`${playfairDisplay.className} absolute right-32 bottom-24 text-right text-8xl
+          font-extrabold`}
+        >
           <li>
-            <Link href="/about">about</Link>
+            <Link className="home-nav-link" href="/about">
+              about
+            </Link>
           </li>
           <li>
-            <Link href="/projects">projects</Link>
+            <Link className="home-nav-link" href="/projects">
+              projects
+            </Link>
           </li>
           <li>
-            <Link href="/contact">contact</Link>
+            <Link className="home-nav-link" href="/contact">
+              contact
+            </Link>
           </li>
         </ul>
       </main>

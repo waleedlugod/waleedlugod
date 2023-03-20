@@ -1,12 +1,11 @@
 import { motion, useIsPresent } from "framer-motion";
-import styles from "waleedLugod/styles/screen.module.css";
 
 export default function Screen({ title }) {
   const isPresent = useIsPresent();
   return (
     <motion.div
       key={title}
-      className={styles.screen}
+      className="fixed inset-0 bg-[#52616b]"
       initial={{ scaleX: 1 }}
       animate={{ scaleX: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
       exit={{ scaleX: 1, transition: { duration: 0.5, ease: "easeInOut" } }}
