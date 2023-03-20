@@ -3,7 +3,7 @@ import Link from "next/link";
 import Screen from "waleedLugod/components/screen";
 import { Playfair_Display } from "next/font/google";
 
-const playfairDisplay = Playfair_Display({ subsets: ["latin"] });
+const playfairDisplay = Playfair_Display({ subsets: ["latin"], adjustFontFallback: false });
 
 export default function Home() {
   return (
