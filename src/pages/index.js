@@ -1,9 +1,6 @@
 import Head from "next/head";
 import Link from "next/link";
 import Screen from "waleedLugod/components/screen";
-import { Playfair_Display } from "next/font/google";
-
-const playfairDisplay = Playfair_Display({ subsets: ["latin"] });
 
 export default function Home() {
   return (
@@ -20,7 +17,7 @@ export default function Home() {
           <h1 className="text-9xl uppercase">lugod</h1>
         </header>
         <ul
-          className={`${playfairDisplay.className} absolute right-32 bottom-24 text-right text-8xl
+          className={`absolute right-32 bottom-24 text-right font-['Playfair_Display'] text-8xl
           font-extrabold`}
         >
           <li>
