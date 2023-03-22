@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Article from "waleedLugod/components/article";
+import ProjectLink from "waleedLugod/components/project";
 
 export default function Projects() {
   return (
@@ -8,23 +9,13 @@ export default function Projects() {
         <title>Waleed Lugod | Projects</title>
       </Head>
       <Article title="Projects">
-        <ul>
+        <ul className="space-y-5">
           <li>
-            <a
-              className="group"
+            <ProjectLink
               href="https://interactive.theguidon.com/2023/02/from-the-hill-to-edsa"
-            >
-              <h2 className="link inline-block text-5xl font-thin after:top-[calc(50%-1px)] after:border-t-[0.03em]
-              group-hover:after:scale-x-100">
-                From the Hill to EDSA
-              </h2>
-              <h3
-                className="ml-4 inline-block text-xl font-semibold before:mb-1 before:block before:h-4 before:w-4
-                before:content-[url('/images/external-link.svg')]"
-              >
-                The GUIDON | 2023
-              </h3>
-            </a>
+              title="From the Hill to EDSA"
+              meta="The GUIDON | 2023"
+            />
           </li>
         </ul>
       </Article>
