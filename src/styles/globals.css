@@ -5,17 +5,10 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  html {
-    font-family: "Playfair Display", serif;
-    font-family: "Inter", sans-serif;
-  }
-}
-
 @layer components {
   .link {
-    @apply relative after:absolute after:top-1/2 after:right-0 after:w-full after:scale-x-0 after:rounded-full
-    after:border-t-[0.075em] after:border-solid after:border-black after:transition-transform after:duration-200 after:ease-out
-    after:content-[''] hover:after:scale-x-100;
+    @apply relative after:pointer-events-none after:absolute after:top-1/2 after:right-0 after:w-full after:scale-x-0
+    after:rounded-full after:border-t-[0.075em] after:border-solid after:border-black after:transition-transform after:duration-200
+    after:ease-out hover:after:scale-x-100;
   }
 }

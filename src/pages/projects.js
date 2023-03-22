@@ -14,7 +14,8 @@ export default function Projects() {
               className="group"
               href="https://interactive.theguidon.com/2023/02/from-the-hill-to-edsa"
             >
-              <h2 className="link inline-block text-5xl font-thin after:top-[calc(50%-1px)] after:border-t-[0.03em] group-hover:after:scale-x-100">
+              <h2 className="link inline-block text-5xl font-thin after:top-[calc(50%-1px)] after:border-t-[0.03em]
+              group-hover:after:scale-x-100">
                 From the Hill to EDSA
               </h2>
               <h3

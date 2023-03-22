@@ -17,21 +17,30 @@ export default function Home() {
           <h1 className="text-9xl uppercase">lugod</h1>
         </header>
         <ul
-          className={`absolute right-32 bottom-24 text-right font-['Playfair_Display'] text-8xl
+          className={`absolute right-32 bottom-24 text-right font-['Playfair_Display'] text-8xl 
           font-extrabold`}
         >
           <li>
-            <Link className="link after:top-[58%] after:border-t-[0.1em]" href="/about">
+            <Link
+              className="link inline-block after:top-[58%] after:border-t-[0.1em]"
+              href="/about"
+            >
               about
             </Link>
           </li>
           <li>
-            <Link className="link after:top-[58%] after:border-t-[0.1em]" href="/projects">
+            <Link
+              className="link inline-block after:top-[58%] after:border-t-[0.1em]"
+              href="/projects"
+            >
               projects
             </Link>
           </li>
           <li>
-            <Link className="link after:top-[58%] after:border-t-[0.1em]" href="/contact">
+            <Link
+              className="link after:border-t-[0.1em]inline- inline-block after:top-[58%]"
+              href="/contact"
+            >
               contact
             </Link>
           </li>
