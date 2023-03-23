@@ -8,7 +8,7 @@ config.autoAddCss = false;
 export default function App({ Component, pageProps, router }) {
   return (
     <>
-      <AnimatePresence mode="wait" initial={false}>
+      <AnimatePresence mode="wait">
         <Component {...pageProps} key={router.pathname} />
       </AnimatePresence>
     </>
