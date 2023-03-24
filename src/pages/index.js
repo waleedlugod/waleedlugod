@@ -11,12 +11,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex h-screen flex-col justify-between">
-        <header className="ml-8 mt-12 font-thin sm:ml-24 sm:mt-24">
+      <main className="">
+        <header className="absolute left-10 top-10 font-thin sm:left-20 sm:top-20">
           <h1 className="text-xl sm:text-4xl">waleed</h1>
           <h1 className=" text-6xl uppercase sm:text-9xl">lugod</h1>
         </header>
-        <nav className="mb-12 mr-8 mt-auto flex flex-col gap-3 font-['Playfair_Display'] text-5xl font-extrabold sm:mr-24 sm:mb-24 sm:text-7xl">
+        <nav className=" absolute right-10 bottom-10 flex flex-col gap-3 font-['Playfair_Display'] text-5xl font-extrabold sm:right-20 sm:bottom-20 sm:text-7xl">
           <Link className="link ml-auto w-min after:top-[58%] after:border-t-[0.1em]" href="/about">
             <div className="pointer-events-none">about</div>
           </Link>
