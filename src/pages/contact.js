@@ -11,15 +11,18 @@ export default function Contact() {
         <title>Waleed Lugod | Contact</title>
       </Head>
       <Article title="Contact">
-        <main className="space-y-3 text-base sm:text-lg">
-          <section className="flex items-center font-extralight">
-            <FontAwesomeIcon className="mr-2" icon={faEnvelope} />
+        <main className="ml-6 space-y-3 text-base sm:text-lg">
+          <section className="relative flex items-center font-extralight">
+            <FontAwesomeIcon className="absolute top-1 -left-6 mr-2 sm:-left-7" icon={faEnvelope} />
             <a className="link" href="mailto:lugodwaleed@gmail.com">
               lugodwaleed@gmail.com
             </a>
           </section>
-          <section className="flex flex-wrap items-center font-extralight">
-            <FontAwesomeIcon className="mr-2" icon={faMagnifyingGlass} />
+          <section className="relative flex flex-wrap items-center font-extralight ">
+            <FontAwesomeIcon
+              className="absolute top-1 -left-6 sm:-left-7"
+              icon={faMagnifyingGlass}
+            />
             <a className="link" href="https://github.com/waleedlugod">
               github
             </a>
