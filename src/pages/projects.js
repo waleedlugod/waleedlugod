@@ -8,8 +8,14 @@ export default function Projects() {
             <Head>
                 <title>Waleed Lugod | Projects</title>
             </Head>
+            {/* prettier-ignore */}
             <Article title="Projects">
                 <ul className="space-y-5">
+                    <ProjectLink
+                        href="https://co-mission.vercel.app/"
+                        title="CoMission"
+                        meta="Blue Hacks | 2023"
+                    />
                     <ProjectLink
                         href="https://size-accurate-solar-system.vercel.app/"
                         title="Solar System"
