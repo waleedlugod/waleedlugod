@@ -20,16 +20,10 @@ export default function Home() {
           <Link className="link ml-auto w-min after:top-[58%] after:border-t-[0.1em]" href="/about">
             <div className="pointer-events-none">about</div>
           </Link>
-          <Link
-            className="link ml-auto w-min after:top-[58%] after:border-t-[0.1em]"
-            href="/projects"
-          >
+          <Link className="link ml-auto w-min after:top-[58%] after:border-t-[0.1em]" href="/projects">
             <div className="pointer-events-none">projects</div>
           </Link>
-          <Link
-            className="link ml-auto w-min after:top-[58%] after:border-t-[0.1em]"
-            href="/contact"
-          >
+          <Link className="link ml-auto w-min after:top-[58%] after:border-t-[0.1em]" href="/contact">
             <div className="pointer-events-none">contact</div>
           </Link>
         </nav>

@@ -19,10 +19,7 @@ export default function Contact() {
             </a>
           </section>
           <section className="relative flex flex-wrap items-center font-extralight ">
-            <FontAwesomeIcon
-              className="absolute top-1 -left-6 sm:-left-7"
-              icon={faMagnifyingGlass}
-            />
+            <FontAwesomeIcon className="absolute top-1 -left-6 sm:-left-7" icon={faMagnifyingGlass} />
             <a className="link" href="https://github.com/waleedlugod">
               github
             </a>
