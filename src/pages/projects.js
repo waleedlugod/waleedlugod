@@ -11,11 +11,20 @@ export default function Projects() {
       <Article title="Projects">
         <ul className="space-y-5">
           <ProjectLink
+            href="https://join.theguidon.com/"
+            title="The GUIDON Join Portal"
+            meta="The GUIDON | 2023"
+          />
+          <ProjectLink
             href="https://interactive.theguidon.com/2023/05/year-end-gallery"
             title="Year-End Gallery"
             meta="The GUIDON | 2023"
           />
-          <ProjectLink href="https://co-mission.vercel.app/" title="CoMission" meta="Blue Hacks | 2023" />
+          <ProjectLink
+            href="https://co-mission.vercel.app/"
+            title="CoMission"
+            meta="Blue Hacks | 2023"
+          />
           <ProjectLink
             href="https://size-accurate-solar-system.vercel.app/"
             title="Solar System"
