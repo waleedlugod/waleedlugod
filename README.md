@@ -1,1 +1,1 @@
-https://waleedlugod.netlify.com/
+https://waleedlugod.vercel.app/
