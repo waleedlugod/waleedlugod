@@ -24,7 +24,7 @@ export default function Contact() {
               github
             </a>
             &nbsp;/&nbsp;
-            <a className="link" href="https://www.linkedin.com/in/waleedlugod/">
+            <a className="link" href="https://www.linkedin.com/in/wlugod/">
               linkedin
             </a>
             &nbsp;/&nbsp;

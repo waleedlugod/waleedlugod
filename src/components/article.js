@@ -6,7 +6,10 @@ import { faHouse } from "@fortawesome/free-solid-svg-icons";
 export default function Article({ title, children }) {
   return (
     <>
-      <Link className="absolute top-4 left-4 sm:top-8 sm:left-8 sm:text-2xl" href="/">
+      <Link
+        className="absolute top-4 left-4 sm:top-8 sm:left-20 sm:text-2xl"
+        href="/"
+      >
         <FontAwesomeIcon icon={faHouse} />
       </Link>
       <article className="w-full p-10 sm:p-20">
