@@ -13,13 +13,19 @@ export default function Contact() {
       <Article title="Contact">
         <main className="ml-6 space-y-3 text-base sm:text-lg">
           <section className="relative flex items-center font-extralight">
-            <FontAwesomeIcon className="absolute top-1 -left-6 mr-2 sm:-left-7" icon={faEnvelope} />
+            <FontAwesomeIcon
+              className="absolute top-1 -left-6 mr-2 sm:-left-7"
+              icon={faEnvelope}
+            />
             <a className="link" href="mailto:lugodwaleed@gmail.com">
               lugodwaleed@gmail.com
             </a>
           </section>
           <section className="relative flex flex-wrap items-center font-extralight ">
-            <FontAwesomeIcon className="absolute top-1 -left-6 sm:-left-7" icon={faMagnifyingGlass} />
+            <FontAwesomeIcon
+              className="absolute top-1 -left-6 sm:-left-7"
+              icon={faMagnifyingGlass}
+            />
             <a className="link" href="https://github.com/waleedlugod">
               github
             </a>
@@ -28,16 +34,8 @@ export default function Contact() {
               linkedin
             </a>
             &nbsp;/&nbsp;
-            <a className="link" href="https://twitter.com/waleedlugod">
-              twitter
-            </a>
-            &nbsp;/&nbsp;
             <a className="link" href="https://www.facebook.com/wwwlugod">
               facebook
-            </a>
-            &nbsp;/&nbsp;
-            <a className="link" href="https://www.instagram.com/waleed.lugod/">
-              instagram
             </a>
           </section>
         </main>

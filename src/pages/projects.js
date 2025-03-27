@@ -11,6 +11,21 @@ export default function Projects() {
       <Article title="Projects">
         <ul className="space-y-5">
           <ProjectLink
+            href="https://theguidon.com/uaap-86-second-semester-primer/"
+            title="UAAP Season 86 Second Semester Primer"
+            meta="The GUIDON | 2024"
+          />
+          <ProjectLink
+            href="https://theguidon.com/uaap-86-primer-volume-1/"
+            title="UAAP Season 86 First Semester Primer"
+            meta="The GUIDON | 2023"
+          />
+          <ProjectLink
+            href="https://interactive.theguidon.com/2023/08/one-big-adventure/"
+            title="One Big Adventure"
+            meta="The GUIDON | 2023"
+          />
+          <ProjectLink
             href="https://join.theguidon.com/"
             title="The GUIDON Join Portal"
             meta="The GUIDON | 2023"
