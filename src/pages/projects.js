@@ -11,6 +11,11 @@ export default function Projects() {
       <Article title="Projects">
         <ul className="space-y-5">
           <ProjectLink
+            href="https://bluelingo.theguidon.com/"
+            title="BLUE LINGO: The Campus Crossword"
+            meta="The GUIDON | 2025"
+          />
+          <ProjectLink
             href="https://theguidon.com/uaap-86-second-semester-primer/"
             title="UAAP Season 86 Second Semester Primer"
             meta="The GUIDON | 2024"
