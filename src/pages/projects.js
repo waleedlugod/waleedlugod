@@ -11,8 +11,9 @@ export default function Projects() {
       </Head>
       <Article title="Projects">
         <ul className="space-y-5">
-          {data.map((project) => (
+          {data.map((project, idx) => (
             <ProjectLink
+              key={idx}
               href={project.link}
               title={project.title}
               meta={project.meta}
