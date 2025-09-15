@@ -1,9 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUpRightFromSquare } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
 
 export default function ProjectLink({ href, title, meta }) {
   return (
-    <a className="group flex w-max flex-wrap" href={href}>
+    <a className="group flex w-max flex-wrap" href={href} target="_blank">
       <h2
         className="link mr-2 inline-block
                 text-2xl font-thin after:top-[calc(50%+0.125rem)]
