@@ -1,1 +1,1 @@
-https://waleedlugod.vercel.app/
+https://wlugod.vercel.app/
