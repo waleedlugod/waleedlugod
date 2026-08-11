@@ -33,10 +33,6 @@ export default function Contact() {
             <a className="link" href="https://www.linkedin.com/in/wlugod/">
               linkedin
             </a>
-            &nbsp;/&nbsp;
-            <a className="link" href="https://www.facebook.com/wwwlugod">
-              facebook
-            </a>
           </section>
         </main>
       </Article>
